@@ -16,8 +16,8 @@ function findAndReplace(){
 
 function replaceText (node) {
   let value = node.nodeValue;
-  value = value.replace(/Brexit/gi, 'Breadsticks');
-  value = value.replace(/brexit/gi, 'breadsticks');
+  value = value.replace(/Cuarentena/gi, 'Cuarentona');
+  value = value.replace(/cuarentena/gi, 'cuarentona');
   node.nodeValue = value;
 }
 
