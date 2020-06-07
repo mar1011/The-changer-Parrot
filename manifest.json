@@ -10,9 +10,12 @@
     "default_popup":"popup.html"
 },
 
+
+
+
 "content_scripts": [
     {
-    "matches": ["*://*/*"],
+    "matches": ["*://*/*"], 
     "js": ["content.js"],
     "run_at":"document_end"
   }
