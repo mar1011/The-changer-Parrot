@@ -12,42 +12,6 @@ body{
         
 }
 
-/*NAV*/
-header{
-    color:black;
-}
-#navegador ul{
-    list-style-position: none;
-    margin:0px;
-    padding: 0px;
-
-  
-}
-#navegador ul li {
-    display: inline-block;
-
-}
-#navegador ul li a{
-    font-family: 'Roboto', sans-serif;
-    color:white;
-    font-size: 20px;
-    line-height: normal;
-    /*display: inline-block;*/
-    float:left;
-    display: flex;
-    text-align: center;
-
-}
-#navegador ul a:hover{
-    background-color:firebrick;
-           
-}
-#footer ul a:hover{
-    background-color:firebrick;    
-    
-    
-}
-
 /*TÍTULOS*/
 .nov{
     font-family: 'Roboto', sans-serif;
@@ -60,12 +24,6 @@ header{
 .nov1{
     font-family: 'Roboto', sans-serif;
     color: aliceblue;
-   
-    
-
-}
-#cd{
- margin-bottom: 20px;
 }
 
 /*FORMULARIO*/
@@ -77,31 +35,6 @@ header{
     
     
 }
-.info{
-    text-align: right;
-
-}
-
-.frase{
-    font-family: 'Roboto', sans-serif;
-    color:white;
-    margin-left: 65px;
-  
-}
-.frase2{
-    font-family: 'Roboto', sans-serif;
-    color:white;
-    
-}
-.contacto{
-padding: auto;
-}
-
-/*#bloque{
-    margin-top: 50px;
-    padding-top: 50px;
-}
-*/
 
 /*FOOTER*/
 #footer{ 
