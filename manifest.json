@@ -1,11 +1,9 @@
 {
-"manifest_version": 2,
 
 "name":"The Changer Parrot",
-"description":"Reemplaza una palabra por otra, en cualquier página de Internet",
 "version":"1.0",
-
-
+"manifest_version": 2,
+"description":"Reemplaza una palabra por otra, en cualquier página de Internet",
 
 "browser_action":{
     "default_icon":"icon.png",
@@ -17,7 +15,6 @@
     "matches": ["*://*/*"],
     "js": ["content.js"],
     "run_at":"document_end"
-
   }
 ]
 } 
