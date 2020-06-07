@@ -8,8 +8,7 @@ body{
 }
 
 .fondo{
-    background-color: black;
-        
+    background-color: black;      
 }
 
 /*TÍTULOS*/
@@ -17,13 +16,17 @@ body{
     font-family: 'Roboto', sans-serif;
     color: aliceblue;
     text-align: center;
-    
 
 }
 
 .nov1{
     font-family: 'Roboto', sans-serif;
     color: aliceblue;
+}
+
+.parrot{
+    display:block;
+    margin:auto;
 }
 
 /*FORMULARIO*/
